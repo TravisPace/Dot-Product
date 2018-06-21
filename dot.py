@@ -1,4 +1,9 @@
 def dot(vector01,vector02):
+  '''
+  This function calculates the dot product of the two vectors. C is an empty list. If the lengths of the vectors are not equal to each
+  other, then the algorithim does not compute and returns none. For teh length of the vector, this multiplies each element together
+  and returns C as a list. A new integer, D, is made. The function then adds the elements in C toghether to get a single integer.
+  '''
   C = [ ]
   if len(vector01) != len(vector02):
     print('error')
